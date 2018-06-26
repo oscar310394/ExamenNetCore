@@ -1,0 +1,45 @@
+﻿@model Universidad.Models.Matricula
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Matricula</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nota)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Nota)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.IdalumnoNavigation)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.IdalumnoNavigation.Idalumno)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.IdmateriaNavigation)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.IdmateriaNavigation.Idmateria)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.IdprofesorNavigation)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.IdprofesorNavigation.Idprofesor)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Idmatricula" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

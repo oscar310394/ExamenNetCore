@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Universidad.Models.Matricula>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Cantidad de Materias Matriculadas: @ViewBag.CantidadMatriculas</h2>
+<h2>Monto pagado en las materias: @ViewBag.SumaMaterias</h2>
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nota)
+                </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdalumnoNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdmateriaNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdprofesorNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nota)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdalumnoNavigation.Idalumno)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdmateriaNavigation.Idmateria)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdprofesorNavigation.Idprofesor)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Idmatricula">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Idmatricula">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Idmatricula">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

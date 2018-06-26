@@ -1,0 +1,11 @@
+C:\Users\Óscar\source\repos\Universidad\Universidad\bin\Debug\netcoreapp2.0\Universidad.deps.json
+C:\Users\Óscar\source\repos\Universidad\Universidad\bin\Debug\netcoreapp2.0\Universidad.runtimeconfig.json
+C:\Users\Óscar\source\repos\Universidad\Universidad\bin\Debug\netcoreapp2.0\Universidad.runtimeconfig.dev.json
+C:\Users\Óscar\source\repos\Universidad\Universidad\bin\Debug\netcoreapp2.0\Universidad.dll
+C:\Users\Óscar\source\repos\Universidad\Universidad\bin\Debug\netcoreapp2.0\Universidad.pdb
+C:\Users\Óscar\source\repos\Universidad\Universidad\obj\Debug\netcoreapp2.0\Universidad.csproj.CoreCompileInputs.cache
+C:\Users\Óscar\source\repos\Universidad\Universidad\obj\Debug\netcoreapp2.0\Universidad.AssemblyInfoInputs.cache
+C:\Users\Óscar\source\repos\Universidad\Universidad\obj\Debug\netcoreapp2.0\Universidad.AssemblyInfo.cs
+C:\Users\Óscar\source\repos\Universidad\Universidad\obj\Debug\netcoreapp2.0\Universidad.dll
+C:\Users\Óscar\source\repos\Universidad\Universidad\obj\Debug\netcoreapp2.0\Universidad.pdb
+C:\Users\Óscar\source\repos\Universidad\Universidad\obj\Debug\netcoreapp2.0\Universidad.csprojAssemblyReference.cache
